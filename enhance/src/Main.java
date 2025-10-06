@@ -25,7 +25,7 @@ public class Main {
             BufferedImage finalImage = sharpen.filter(brightImage, null);
 
             // Save enhanced image
-            ImageIO.write(finalImage, "jpg", new File("images/enhanced_output.jpg"));
+            ImageIO.write(finalImage, "jpg", new File("Output/enhanced_output.jpg"));
             System.out.println("Enhanced image saved as enhanced_output.jpg");
         } catch (IOException e) {
             System.out.println("Error: " + e);
